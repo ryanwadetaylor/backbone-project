@@ -11,6 +11,12 @@
       "name": "Kevin",
       "hobby": "Beard Growing",
       "img": "http://robohash.org/14eb93afa4d.png"
+    },
+    {
+      "name": "Keith",
+      "hobby": "Coding",
+      "img": "http://robohash.org/14ec173605f.png",
+      "id": 3
     }
   ]
 }
