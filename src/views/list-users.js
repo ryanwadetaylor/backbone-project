@@ -16,6 +16,7 @@ var ListUsers = Backbone.View.extend({
   render: function () {
     var _this = this;
     var userCollection = this.collection;
+    console.log("uc: " + userCollection);
 
     // Fetch Collection from Server
     userCollection.fetch().done(function (users) {

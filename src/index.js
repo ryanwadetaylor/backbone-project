@@ -3,6 +3,7 @@ var Backbone = require('backbone');
 // App
 var App = require('./app');
 var userCollection = require('./collections/user');
+var productCollection = require('./collections/product');
 
 // View: User Form
 var UserFormView = require('./views/user-form');
@@ -11,6 +12,14 @@ App.Views.UserForm = new UserFormView;
 // View: List Users
 var ListUsersView = require('./views/list-users');
 App.Views.ListUsers  = new ListUsersView;
+
+// View: Home Page
+var HomePage = require('./views/home');
+App.Views.HomePage = new HomePage;
+
+// View: List Products
+var ListProductsView = require('./views/list-products');
+App.Views.ListProducts = new ListProductsView;
 
 // App Router
 App.Router = Backbone.Router.extend({
@@ -31,7 +40,7 @@ App.Router = Backbone.Router.extend({
 
   // Route handlers
   index: function() {
-    $('main').append().html('<h1>Home Page</h1>');
+    App.Views.HomePage.render();
   },
 
   listUsers: function() {
@@ -51,7 +60,7 @@ App.Router = Backbone.Router.extend({
   },
 
   listProducts: function(id) {
-    $('main').append().html('<h1>Product List</h1>');
+    App.Views.ListProducts.render();
   },
 
   addProduct: function(id) {
