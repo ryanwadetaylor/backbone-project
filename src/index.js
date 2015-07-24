@@ -18,15 +18,23 @@ App.Router = Backbone.Router.extend({
   // Route definitions
   routes: {
     '': 'index',
+    'users(/)': 'listUsers',
     'user/add(/)': 'addUser',
     'user/:id/edit(/)': 'addUser',
     'user/:id/delete(/)': 'deleteUser',
+    'products(/)': 'listProducts',
+    'product/add(/)': 'addProduct',
+    'product/:id/edit(/)': 'addProduct',
+    'product/:id/delete(/)': 'deleteProduct',
     '*actions': 'defaultRoute'
   },
 
   // Route handlers
-
   index: function() {
+    $('main').append().html('<h1>Home Page</h1>');
+  },
+
+  listUsers: function() {
     App.Views.ListUsers.render();
   },
 
@@ -40,6 +48,22 @@ App.Router = Backbone.Router.extend({
     user.destroy().done(function (user) {
       App.router.navigate('/', { trigger: true })
     });
+  },
+
+  listProducts: function(id) {
+    $('main').append().html('<h1>Product List</h1>');
+  },
+
+  addProduct: function(id) {
+    $('main').append().html('<h1>Product Form</h1>');
+  },
+
+  deleteUser: function(id) {
+    console.log('this is the delete Product route')
+
+    // user.destroy().done(function (user) {
+    //   App.router.navigate('/', { trigger: true })
+    // });
   },
 
   defaultRoute: function(actions) {
