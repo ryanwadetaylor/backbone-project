@@ -21,6 +21,10 @@ App.Views.HomePage = new HomePage;
 var ListProductsView = require('./views/list-products');
 App.Views.ListProducts = new ListProductsView;
 
+// View: Product Form
+var ProductFormView = require('./views/product-form');
+App.Views.ProductForm = new ProductFormView;
+
 // App Router
 App.Router = Backbone.Router.extend({
 
@@ -64,7 +68,8 @@ App.Router = Backbone.Router.extend({
   },
 
   addProduct: function(id) {
-    $('main').append().html('<h1>Product Form</h1>');
+    App.Views.ProductForm.render(id);
+    // $('main').append().html('<h1>Product Form</h1>');
   },
 
   deleteUser: function(id) {
