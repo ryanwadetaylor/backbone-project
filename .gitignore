@@ -4,3 +4,4 @@ build
 src/index.js
 db.json
 index.html
+.gitignore

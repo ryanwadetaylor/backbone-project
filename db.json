@@ -66,12 +66,6 @@
       "id": 10
     },
     {
-      "name": "thor ",
-      "hobby": "testical biting",
-      "img": "http://robohash.org/14ecc0db1e8.png",
-      "id": 11
-    },
-    {
       "name": "juice",
       "hobby": "getting testies bitten",
       "img": "http://robohash.org/14ecc0def98.png",
@@ -84,9 +78,9 @@
       "id": 13
     },
     {
-      "name": "douche",
-      "hobby": "being a jerk",
-      "img": "http://robohash.org/14ed08e3b93.png",
+      "name": "brig",
+      "hobby": "heyyyy",
+      "img": "http://robohash.org/14ed0be450b.png",
       "id": 14
     }
   ],
