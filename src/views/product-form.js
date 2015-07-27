@@ -47,7 +47,7 @@ var ProductFormView = Backbone.View.extend({
     // Collect Form Data
     var formData = {
       name: $('form.product input[name="name"]').val(),
-      type: $('form.product input[name="type"]').val(),
+      type: $('form.product select[name="type"]').val(),
       price: $('form.product input[name="price"]').val(),
       qty: $('form.product input[name="qty"]').val(),
       img: $('form.product input[name="img"]').val(),
