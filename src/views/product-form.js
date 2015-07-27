@@ -31,7 +31,7 @@ var ProductFormView = Backbone.View.extend({
     // Display form in Update Mode
     } else {
       var product = this.product = new Product({ id: prodId });
-
+      
       product.fetch().done(function () {
         var output = productTemplate(product.toJSON());
         _this.$el.html(output);

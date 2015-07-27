@@ -23,17 +23,64 @@
       "hobby": "carpentry",
       "img": "http://robohash.org/14ed0ab9aaf.png",
       "id": 4
+
+    },
+    {
+      "name": "Ryan",
+      "hobby": "Wearing Nice Shirts",
+      "img": "http://robohash.org/14ecbe8c626.png",
+      "id": 5
+    },
+    {
+      "name": "Juice",
+      "hobby": "killing dreams",
+      "img": "http://robohash.org/14ecbe8fc63.png",
+      "id": 6
+    },
+    {
+      "name": "brig",
+      "hobby": "hey",
+      "img": "http://robohash.org/14ecbe95549.png",
+      "id": 7
+    },
+    {
+      "name": "chris",
+      "hobby": "events",
+      "img": "http://robohash.org/14ecbe98497.png",
+      "id": 8
+    },
+    {
+      "name": "levi",
+      "hobby": "shirt making",
+      "img": "http://robohash.org/14ecbe9a442.png",
+      "id": 9
+    },
+    {
+      "name": "karla",
+      "hobby": "migraining",
+      "img": "http://robohash.org/14ecbe9c808.png",
+      "id": 10
+    },
+    {
+      "name": "juice",
+      "hobby": "getting testies bitten",
+      "img": "http://robohash.org/14ecc0def98.png",
+      "id": 12
+    },
+    {
+      "name": "wade",
+      "hobby": "being a scientist",
+      "img": "http://robohash.org/14ed078d9fe.png",
+      "id": 13
+    },
+    {
+      "name": "douche",
+      "hobby": "being a jerk",
+      "img": "http://robohash.org/14ed08e3b93.png",
+      "id": 14
     }
   ],
   "products": [
-    {
-      "id": 1,
-      "name": "Luke Skywalker",
-      "type": "Action Figure",
-      "price": 20,
-      "qty": 4,
-      "img": "http://www.rebelscum.com/Hasbro-Star-Wars/The-Black-Series/6-Inch-Figures/03-Luke-Skywalker-Jedi-The-Black-Series-6-inches-Hasbro/03-Luke-Skywalker-Jedi-The-Black-Series-6-inches-Hasbro-001.jpg"
-    },
     {
       "id": 2,
       "name": "Boba Fett Slave 1",
@@ -43,12 +90,15 @@
       "img": "http://www.rebelscum.com/Hasbro-Star-Wars/Boba-Fett-Slave-I-Rebels-class-II-Vehicle-2014/Boba-Fett-Slave-I-Rebels-class-II-Vehicle-2014-001.jpg"
     },
     {
-      "name": "test thngi lego playset",
-      "price": 1000202,
-      "qty": 2,
-      "img": "",
-      "id": 3,
-      "type": "Lego Playset"
+
+
+      "name": "Luke Skywalker",
+      "type": "Action Figure",
+      "price": 100,
+      "qty": "1 million",
+      "img": "http://jedibusiness.com/images/actionFigures/The-Vintage-Collection/The-Vintage-Collection-Luke-Skywalker-Jedi-Knight-Outfit_Big_2.jpg",
+      "id": 3
+
     }
   ]
 }

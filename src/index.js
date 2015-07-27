@@ -72,12 +72,13 @@ App.Router = Backbone.Router.extend({
     // $('main').append().html('<h1>Product Form</h1>');
   },
 
-  deleteUser: function(id) {
+  deleteProduct: function(id) {
     console.log('this is the delete Product route')
+    var product = productCollection.get(id);
 
-    // user.destroy().done(function (user) {
-    //   App.router.navigate('/', { trigger: true })
-    // });
+    product.destroy().done(function (product) {
+      App.router.navigate('/', { trigger: true })
+    });
   },
 
   defaultRoute: function(actions) {
