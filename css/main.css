@@ -139,14 +139,6 @@ body {
 .inner:hover .textWrapper {
     opacity: 1;
 }
-/*
-.inner-links-odd {
-    margin-top: 100px;
-}
-
-.inner-links-even {
-    margin-top: 80px;
-}*/
 
 .even {
     margin-top: 102px;
