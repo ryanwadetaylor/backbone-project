@@ -31,8 +31,13 @@
   <div class="hexagon" data-id="{{id}}">
     <div class="outer">
       <div class="inner user-name">
+      <img src="{{img}}" alt="">
+          <div class="text-outer">{{name}}</div>
         <div class="textWrapper">
-          <div class="text">{{name}}<div class="text-sub">Hobby: {{hobby}}</div><a href="">Edit</a> <a href="" class="warning">Delete</a></a></a></div>
+          <div class="text-inner">{{name}}
+            <div class="text-sub">Hobby: {{hobby}}
+            </div><div class="inner-links-odd"><a href="">Edit</a> <a href="" class="warning">Delete</a></div>
+          </div>
         </div>
       </div>
     </div>
@@ -41,8 +46,13 @@
   <div class="hexagon even" data-id="{{id}}">
     <div class="outer">
       <div class="inner user-name">
+      <img src="{{img}}" alt="">
+          <div class="text-outer">{{name}}</div>
         <div class="textWrapper">
-          <div class="text">{{name}}<div class="text-sub">Hobby: {{hobby}}</div><a href="">Edit</a> <a href="" class="warning">Delete</a></a></a></div>
+          <div class="text-inner">{{name}}
+            <div class="text-sub">Hobby: {{hobby}}
+            </div><div class="inner-links-even"><a href="">Edit</a> <a href="" class="warning">Delete</a></div>
+          </div>
         </div>
       </div>
     </div>

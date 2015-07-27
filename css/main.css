@@ -17,9 +17,15 @@ html, body {
     padding: 0;
     background-color: #2F186D;
     color: white;
+
 }
 body {
     padding: 150px;
+}
+
+.panel > div {
+    width: 1080px;
+    margin: 0 auto;
 }
 
 .warning {
@@ -69,7 +75,7 @@ body {
     transition: all 0.2s;
 }
 
-.text {
+.text-inner {
     position: absolute;
     top: 30px;
     left: 52px;
@@ -85,8 +91,28 @@ body {
     font-size: 12pt;
 }
 
+.text-outer {
+    position: absolute;
+    top: 30px;
+    left: 152px;
+    width: 130px;
+    height: 135px;
+    z-index: 500;
+    text-align: center;
+    font-size: 16pt;
+    /*border: 1px solid red;*/
+}
+
 .inner:hover .textWrapper {
     opacity: 1;
+}
+
+.inner-links-odd {
+    margin-top: 100px;
+}
+
+.inner-links-even {
+    margin-top: 80px;
 }
 
 
