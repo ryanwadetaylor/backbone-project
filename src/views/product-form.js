@@ -23,6 +23,8 @@ var ProductFormView = Backbone.View.extend({
     var _this = this;
     this.editMode = !!prodId;
 
+    $('body').removeClass().addClass('products');
+
     // Display form in Create Mode
     if (!this.editMode) {
       var output = productTemplate();
@@ -31,7 +33,7 @@ var ProductFormView = Backbone.View.extend({
     // Display form in Update Mode
     } else {
       var product = this.product = new Product({ id: prodId });
-
+      
       product.fetch().done(function () {
         var output = productTemplate(product.toJSON());
         _this.$el.html(output);
@@ -47,7 +49,7 @@ var ProductFormView = Backbone.View.extend({
     // Collect Form Data
     var formData = {
       name: $('form.product input[name="name"]').val(),
-      type: $('form.product input[name="type"]').val(),
+      type: $('form.product select[name="type"]').val(),
       price: $('form.product input[name="price"]').val(),
       qty: $('form.product input[name="qty"]').val(),
       img: $('form.product input[name="img"]').val(),

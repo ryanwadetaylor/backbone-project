@@ -16,6 +16,8 @@ var ListProducts = Backbone.View.extend({
     var productCollection = this.collection;
     console.log("pc: " + productCollection);
 
+    $('body').removeClass().addClass('products');
+
     // Fetch Collection from Server
     productCollection.fetch().done(function (products) {
       _this.$el.html(listProductsTemplate(products));

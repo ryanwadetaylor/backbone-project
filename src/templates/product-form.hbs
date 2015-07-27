@@ -2,8 +2,17 @@
   <div>
     Name: <input type="text" name="name" value="{{name}}">
   </div>
-  <div>
-    Type: <input type="text" name="type" value="{{type}}">
+  <div>Type:
+    {{!-- Type: <input type="text" name="type" value="{{type}}"> --}}
+    <select name="type">
+    	<option value="{{type}}" selected>{{type}}</option>
+    	<option value="Action Figure">Action Figure</option>
+    	<option value="Vehicle">Vehicle</option>
+    	<option value="Playset">Playset</option>
+    	<option value="Lego Action Figure">Lego Action Figure</option>
+    	<option value="Lego Vehicle">Lego Vehicle</option>
+    	<option value="Lego Playset">Lego Playset</option>
+    </select>
   </div>
     <div>
     Price: <input type="text" name="price" value="{{price}}">

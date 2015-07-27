@@ -23,7 +23,6 @@ html, body {
     font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
-    /*background-color: #2F186D;*/
     color: white;
 }
 
@@ -35,7 +34,6 @@ html, body {
 .main-container {
     margin-top: 150px;
     font-family: 'Rock Salt';
-    /*position: absolute;*/
 }
 
 .main-container > div {
@@ -57,6 +55,15 @@ body {
     padding: 100px;
 }
 
+.users {
+    background-color: #2F186D;
+}
+
+.products {
+    background-color: #FF4D00;
+}
+
+
 .panel > div {
     width: 1080px;
     margin: 0 auto;
@@ -74,7 +81,6 @@ body {
     height: 200px; 
     transform: rotate(120deg); 
     margin: 0 -138px -98px -85px; 
-    /*background: rgba(255,0,0,0.5)*/
 }
 
 .outer {
@@ -82,7 +88,6 @@ body {
     width: 100%;
     height: 100%;
     transform: rotate(-60deg);
-    /*background: rgba(0,255,0,0.5)*/
 }
 
 .inner {
@@ -92,8 +97,6 @@ body {
     width: 100%;
     height: 100%;
     transform: rotate(-60deg);
-
-    /*opacity: 0.5*/
 }
 
 .textWrapper {
@@ -104,8 +107,6 @@ body {
     height: 200px;
     z-index: 500;
     background: #000;
-    /*border: 1px solid black;
-    top: 0px;*/
     transition: all 0.2s;
 }
 
@@ -118,7 +119,6 @@ body {
     z-index: 500;
     text-align: center;
     font-size: 16pt;
-    /*border: 1px solid red;*/
 }
 
 .text-sub {
@@ -134,7 +134,6 @@ body {
     z-index: 500;
     text-align: center;
     font-size: 16pt;
-    /*border: 1px solid red;*/
 }
 
 .inner:hover .textWrapper {
