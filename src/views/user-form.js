@@ -22,6 +22,8 @@ var UserFormView = Backbone.View.extend({
     var _this = this;
     this.editMode = !!userId;
 
+    $('body').removeClass().addClass('users');
+
     // Display form in Create Mode
     if (!this.editMode) {
       var output = formTemplate();

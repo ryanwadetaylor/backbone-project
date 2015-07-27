@@ -18,6 +18,7 @@ var ListProducts = Backbone.View.extend({
     var productCollection = this.collection;
     console.log("pc: " + productCollection);
 
+
     Handlebars.registerHelper('if_even', function(conditional, options) {
       if((conditional % 2) == 0) {
         return options.fn(this);
@@ -25,6 +26,9 @@ var ListProducts = Backbone.View.extend({
         return options.inverse(this);
       }
       });
+    $('body').removeClass().addClass('products');
+
+
     // Fetch Collection from Server
     productCollection.fetch().done(function (products) {
       _this.$el.html(listProductsTemplate(products));

@@ -17,6 +17,9 @@ var ListUsers = Backbone.View.extend({
   render: function () {
     var _this = this;
     var userCollection = this.collection;
+
+    $('body').removeClass().addClass('users');
+
     Handlebars.registerHelper('if_even', function(conditional, options) {
       if((conditional % 2) == 0) {
         return options.fn(this);
