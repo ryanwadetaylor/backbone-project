@@ -76,6 +76,18 @@
       "hobby": "getting testies bitten",
       "img": "http://robohash.org/14ecc0def98.png",
       "id": 12
+    },
+    {
+      "name": "wade",
+      "hobby": "being a scientist",
+      "img": "http://robohash.org/14ed078d9fe.png",
+      "id": 13
+    },
+    {
+      "name": "douche",
+      "hobby": "being a jerk",
+      "img": "http://robohash.org/14ed08e3b93.png",
+      "id": 14
     }
   ]
 }
