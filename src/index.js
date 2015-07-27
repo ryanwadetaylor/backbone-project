@@ -72,7 +72,7 @@ App.Router = Backbone.Router.extend({
     // $('main').append().html('<h1>Product Form</h1>');
   },
 
-  deleteUser: function(id) {
+  deleteProduct: function(id) {
     console.log('this is the delete Product route')
 
     // user.destroy().done(function (user) {
