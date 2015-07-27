@@ -152,3 +152,17 @@ body {
     background: #0079BF;
     background-size: contain; 
 }
+
+.product-name {
+    background: #0079BF;
+    background-size: contain; 
+}
+
+.prod-img {
+    width: 235px;
+    /*height: 200px;*/
+    /*padding-top: 20px;*/
+    margin-left: 80px;
+    /*margin-top: 10px;*/
+
+}

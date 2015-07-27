@@ -110,7 +110,7 @@
       "type": "Vehicle",
       "price": 35,
       "qty": 2,
-      "img": "http://www.rebelscum.com/Hasbro-Star-Wars/Boba-Fett-Slave-I-Rebels-class-II-Vehicle-2014/Boba-Fett-Slave-I-Rebels-class-II-Vehicle-2014-001.jpg"
+      "img": "http://www.rebelscum.com/sote/soteslave1top.jpg"
     },
     {
       "name": "Luke Skywalker",
@@ -119,6 +119,24 @@
       "qty": "1 million",
       "img": "http://jedibusiness.com/images/actionFigures/The-Vintage-Collection/The-Vintage-Collection-Luke-Skywalker-Jedi-Knight-Outfit_Big_2.jpg",
       "id": 3
+
+    },
+    {
+      "name": "Yoda",
+      "type": "Action Figure",
+      "price": 100,
+      "qty": 4,
+      "img": "http://www.rebelscum.com/Hasbro-Star-Wars/MS04-Rebels-Mission-Series-Yoda-Darth-Sidious/MS04-Rebels-Mission-Series-Yoda-Darth-Sidious-007.jpg",
+      "id": 4
+    },
+    {
+      "name": "R2D2",
+      "type": "Action Figure",
+      "price": 55,
+      "qty": 4,
+      "img": "http://www.rebelscum.com/vintage/vintr2d2scopeloose.jpg",
+      "id": 5
+
     }
   ]
 }
