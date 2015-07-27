@@ -139,14 +139,14 @@ body {
 .inner:hover .textWrapper {
     opacity: 1;
 }
-
+/*
 .inner-links-odd {
     margin-top: 100px;
 }
 
 .inner-links-even {
     margin-top: 80px;
-}
+}*/
 
 .even {
     margin-top: 102px;
@@ -159,4 +159,18 @@ body {
 .user-name {
     background: #0079BF;
     background-size: contain; 
+}
+
+.product-name {
+    background: #0079BF;
+    background-size: contain; 
+}
+
+.prod-img {
+    width: 235px;
+    /*height: 200px;*/
+    /*padding-top: 20px;*/
+    margin-left: 80px;
+    /*margin-top: 10px;*/
+
 }
