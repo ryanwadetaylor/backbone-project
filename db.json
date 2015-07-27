@@ -19,15 +19,11 @@
       "id": 3
     },
     {
-      "name": "Richi",
-      "hobby": "Bot Fighting",
-      "img": "http://robohash.org/14ec173707.png"
-    },
-    {
-      "name": "Wade",
-      "hobby": "Science",
-      "img": "http://robohash.org/14ecbe7f5d4.png",
+      "name": "Joe",
+      "hobby": "carpentry",
+      "img": "http://robohash.org/14ed0ab9aaf.png",
       "id": 4
+
     },
     {
       "name": "Ryan",
@@ -94,12 +90,15 @@
       "img": "http://www.rebelscum.com/Hasbro-Star-Wars/Boba-Fett-Slave-I-Rebels-class-II-Vehicle-2014/Boba-Fett-Slave-I-Rebels-class-II-Vehicle-2014-001.jpg"
     },
     {
+
+
       "name": "Luke Skywalker",
       "type": "Action Figure",
       "price": 100,
       "qty": "1 million",
       "img": "http://jedibusiness.com/images/actionFigures/The-Vintage-Collection/The-Vintage-Collection-Luke-Skywalker-Jedi-Knight-Outfit_Big_2.jpg",
       "id": 3
+
     }
   ]
 }
