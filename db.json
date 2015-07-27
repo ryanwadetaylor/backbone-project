@@ -64,6 +64,18 @@
       "hobby": "migraining",
       "img": "http://robohash.org/14ecbe9c808.png",
       "id": 10
+    },
+    {
+      "name": "thor ",
+      "hobby": "testical biting",
+      "img": "http://robohash.org/14ecc0db1e8.png",
+      "id": 11
+    },
+    {
+      "name": "juice",
+      "hobby": "getting testies bitten",
+      "img": "http://robohash.org/14ecc0def98.png",
+      "id": 12
     }
   ]
 }
