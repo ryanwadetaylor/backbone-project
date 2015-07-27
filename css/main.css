@@ -7,9 +7,6 @@ a {
     color: #0079BF;
 }
 
-
-
-
 html, body {
     font-size: 0.9em; 
     font-family: "Arial", sans-serif;
@@ -17,10 +14,12 @@ html, body {
     padding: 0;
     background-color: #2F186D;
     color: white;
+    background-image: url("../images/darth-bg.jpg");
+    background-size: cover;
 
 }
 body {
-    padding: 150px;
+    padding: 100px;
 }
 
 .panel > div {
