@@ -25,7 +25,6 @@ var ListUsers = Backbone.View.extend({
       }
       });
 
-
     // Fetch Collection from Server
     userCollection.fetch().done(function (users) {
       _this.$el.html(listUsersTemplate(users));
