@@ -86,20 +86,20 @@
   ],
   "products": [
     {
-      "id": 1,
-      "name": "Luke Skywalker",
-      "type": "Action Figure",
-      "price": 20,
-      "qty": 4,
-      "img": "http://www.rebelscum.com/Hasbro-Star-Wars/The-Black-Series/6-Inch-Figures/03-Luke-Skywalker-Jedi-The-Black-Series-6-inches-Hasbro/03-Luke-Skywalker-Jedi-The-Black-Series-6-inches-Hasbro-001.jpg"
-    },
-    {
       "id": 2,
       "name": "Boba Fett Slave 1",
       "type": "Vehicle",
       "price": 35,
       "qty": 2,
       "img": "http://www.rebelscum.com/Hasbro-Star-Wars/Boba-Fett-Slave-I-Rebels-class-II-Vehicle-2014/Boba-Fett-Slave-I-Rebels-class-II-Vehicle-2014-001.jpg"
+    },
+    {
+      "name": "Luke Skywalker",
+      "type": "Action Figure",
+      "price": 100,
+      "qty": "1 million",
+      "img": "http://jedibusiness.com/images/actionFigures/The-Vintage-Collection/The-Vintage-Collection-Luke-Skywalker-Jedi-Knight-Outfit_Big_2.jpg",
+      "id": 3
     }
   ]
 }
