@@ -23,6 +23,8 @@ var ProductFormView = Backbone.View.extend({
     var _this = this;
     this.editMode = !!prodId;
 
+    $('body').removeClass().addClass('products');
+
     // Display form in Create Mode
     if (!this.editMode) {
       var output = productTemplate();

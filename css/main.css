@@ -12,15 +12,23 @@ html, body {
     font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #2F186D;
     color: white;
-    background-image: url("../images/darth-bg.jpg");
-    background-size: cover;
+ /*   background-image: url("../images/darth-bg.jpg");
+    background-size: cover;*/
 
 }
 body {
     padding: 100px;
 }
+
+.users {
+    background-color: #2F186D;
+}
+
+.products {
+    background-color: #FF4D00;
+}
+
 
 .panel > div {
     width: 1080px;
