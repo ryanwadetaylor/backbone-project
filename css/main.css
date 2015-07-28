@@ -134,6 +134,10 @@ body {
     z-index: 500;
     text-align: center;
     font-size: 16pt;
+    /*font-family: 'Rock Salt';*/
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .inner:hover .textWrapper {
